@@ -1,0 +1,13 @@
+{
+    "name": "node-fastcoin",
+    "version": "0.4.0",
+    "description": "FastCoin client",
+    "keywords": ["fastcoin"],
+    "repository": "git://github.com/m0gliE/node-fastcoin.git",
+    "author": "m0gliE <m0gliEz@gmail.com>",
+    "main": "lib/fastcoin.js",
+    "engines": { "node": ">= 0.4.1" },
+    "devDependencies": {
+        "nodeunit": "*"
+    }
+}
