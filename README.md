@@ -1,6 +1,6 @@
 # A Node.js FastCoin Client
 
-![FastCoin](https://raw2.github.com/m0gliE/node-fastcoin/master/node-fastcoin.png)
+![FastCoin](https://www.omniref.com/js/npm/node-fastcoin.png)
 
 node-fastcoin is a Fastcoin client for Node.js. It is a fork of the excellent Kapitalize Bitcoin Client (now removed from GitHub) intended for use with Fastcoin. The purpose of this repository is:
 
@@ -45,7 +45,7 @@ fastcoin
 
 ## Methods
 
-The [Litecoin API](https://litecoin.info/Litecoin_API) is supported as direct methods. Use either camelcase or lowercase.
+The [Fastcoin API] is supported as direct methods. Use either camelcase or lowercase.
 
 ```js
 fastcoin.getNewAddress(function(err, address) {
@@ -90,8 +90,6 @@ Generates authorization header, returns `this` for chainability
 ## Commands
 
 TODO: Write tests for these.
-
-All [Litecoin API](https://litecoin.info/Litecoin_API) commands are supported, in lowercase or camelcase form.
 
 <table>
 <tr>
